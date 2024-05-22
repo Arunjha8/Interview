@@ -2,7 +2,7 @@ package string;
 
 import java.util.Arrays;
 
-public class ExtractIntArrayFromStringArray {
+public class ExtractCharArrayFromStringArray {
     public static void main(String[] args) {
         String[] name = {"Arun1234"};
         String a = "";

@@ -11,7 +11,7 @@ public class HoldIntoCharArray {
             char[] ch = s.toCharArray();
             for (int i = 0; i < ch.length; i++) {
                 if (Character.isDigit(ch[i])) {
-                    a = a + ch[i];
+                    a = a + String.valueOf(ch[i]);
                 } else {
                     b = b + ch[i];
                 }
@@ -20,10 +20,10 @@ public class HoldIntoCharArray {
             for (int i = 0; i < a.length(); i++) {
                 intArray[i] = Character.getNumericValue(a.charAt(i));
             }
-//            char[] c = a.toCharArray();
-//            char[] d = b.toCharArray();
-//            System.out.println("Character array : " + Arrays.toString(c));
-//            System.out.println("Digit array : " + Arrays.toString(d));
+            char[] c = a.toCharArray();
+            char[] d = b.toCharArray();
+            System.out.println("Digit array : " + Arrays.toString(c));
+            System.out.println("Character array : " + Arrays.toString(d));
             System.out.println("Integer array : " + Arrays.toString(intArray));
         }
     }

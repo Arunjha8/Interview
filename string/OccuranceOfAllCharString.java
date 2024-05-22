@@ -2,10 +2,11 @@ package string;
 
 public class OccuranceOfAllCharString {
     public static void main(String[] args) {
-        /*
-         * StringBuffer sb = new StringBuffer("Yugal Rajput"); int count = 0; String s =
-         * sb.toString(); String name = s.toLowerCase();
-         */
+/*
+        StringBuffer sb = new StringBuffer("Arun Ojha");
+        String s = sb.toString();
+        String name = s.toLowerCase();
+        */
         String name = "arun ojha";
         int count = 0;
         for (char a = 'a'; a <= 'z'; a++) {

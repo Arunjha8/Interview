@@ -1,11 +1,11 @@
 package string;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class ReplaceCharWithOccuranceNo {
     public static void main(String[] args) {
         String name = "Arun";
+        name = name.toLowerCase();
         char charToReplace = 'a';
         if (name.indexOf(charToReplace) == -1) {
             System.out.println("Not Present");

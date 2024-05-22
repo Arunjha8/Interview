@@ -3,7 +3,6 @@ package string;
 public class AdditionOfIntegerPresentInString {
 
     public static void main(String[] args) {
-
         String[] name = {"Arun1234"};
         int count = 0;
         for (String s : name) {

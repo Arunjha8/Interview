@@ -8,9 +8,11 @@ public class ExtractIntFromString {
         for (int i = 0; i < name.length(); i++) {
             if (Character.isDigit(name.charAt(i))) {
                 array[i] = Integer.parseInt(String.valueOf(name.charAt(i)));
+                // System.out.println(array[i] + " = Arun");
             }
+            // System.out.println(array[i] + " = Arun");
         }
-         System.out.println(array[4] + " , " + array[6]);
-        System.out.println(array[5]+array[6]);
+        System.out.println(array[4] + " , " + array[6]);
+        System.out.println(array[4] + array[6]);
     }
 }
