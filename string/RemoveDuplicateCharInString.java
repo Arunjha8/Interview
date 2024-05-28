@@ -10,9 +10,10 @@ public class RemoveDuplicateCharInString {
                 System.out.println(ch);
             }
         }
-//        char[] ch = s1.toCharArray();
-//        for (int i : ch) {
-//            System.out.println(i);
-//        }
+// numericvalue
+        char[] ch = s1.toCharArray();
+        for (int i : ch) {
+            System.out.println(i);
+        }
     }
 }
