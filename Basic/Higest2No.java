@@ -14,6 +14,7 @@ public class Higest2No {
                 c = t[i];
             }
         }
-        System.out.println("Second Highest = " + c);
+        System.out.println("Second Highest : " + c);
+        System.out.println("Highect : " + temp);
     }
 }

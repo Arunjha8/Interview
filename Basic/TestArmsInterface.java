@@ -4,7 +4,7 @@ import java.sql.SQLOutput;
 
 public class TestArmsInterface {
     public static void main(String[] args) {
-        ArmsInterface armsInterface = (b) -> {
+        ArmsInterface arm = (b) -> {
             int sum = 0;
             int r;
             int a = b;
@@ -19,8 +19,6 @@ public class TestArmsInterface {
                 System.out.println("Not ArmStrong Number");
             }
         };
-
-        armsInterface.arms(153);  //153, 371
-
+        arm.arms(153);  //153, 371
     }
 }

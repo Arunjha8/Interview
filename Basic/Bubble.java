@@ -12,7 +12,7 @@ public class Bubble {
                     t[i] = temp;
                 }
             }
-            System.out.println(t[i] + " ");
+            System.out.println(t[i]);
         }
     }
 }

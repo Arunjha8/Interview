@@ -2,7 +2,7 @@ package Basic;
 
 public class PrimeNo {
     public static void main(String[] args) {
-        int t = 157;
+        int t = 53;
         int count = 0;
         for (int i = 2; i < t; i++) {
             if (t % i == 0) {

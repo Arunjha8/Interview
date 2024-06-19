@@ -6,7 +6,7 @@ public class ArmStrongNo {
         int a = t;
         int r;
         int sum = 0;
-        while (t != 0) {
+        while (t > 0) {
             r = t % 10;
             sum = sum + (r * r * r);
             t = t / 10;

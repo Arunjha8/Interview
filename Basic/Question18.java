@@ -2,9 +2,10 @@ package Basic;
 
 public class Question18 {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 5, 6};
+        int[] arr = {1, 2, 3, 4, 5, 6, 7111};
         int idx = 4;
-        System.out.println(add(arr, idx));
+        add(arr, idx);
+        //System.out.println(add(arr, idx));
     }
 
     public static int add(int[] a, int b) {
