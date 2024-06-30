@@ -8,6 +8,7 @@ public class TestShapeCircleRectangle {
 
         Circle c = (Circle) s[0];
         c.setRadius(10);
+//        ((Circle) s[0]).setRadius(10);
 //       System.out.println(c.area());
         System.out.println(s[0].area());
 

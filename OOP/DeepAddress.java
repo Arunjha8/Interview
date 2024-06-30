@@ -1,7 +1,7 @@
 package OOP;
 
 public class DeepAddress implements Cloneable {
-    public String city;
+    protected String city;
 
     public String getCity() {
         return city;

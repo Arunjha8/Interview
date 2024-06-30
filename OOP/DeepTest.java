@@ -6,11 +6,14 @@ public class DeepTest {
         add.setCity("Indore");
 
         DeepStudent s = new DeepStudent();
+        // s.rollNo = 101;
+        // s.address = add;
         s.setRollNo(101);
         s.setAddress(add);
 
         DeepStudent s1 = (DeepStudent) s.clone();
-        s1.setRollNo(102);
+        s1.rollNo = 102;
+        // s1.setRollNo(102);
         s1.address.city = "Gwalior";
 
         System.out.println(s.getRollNo());

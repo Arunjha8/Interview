@@ -8,8 +8,7 @@ public class PersonConstructorCalling {
     public PersonConstructorCalling(String fname, String lname) {
         this.fname = fname;
         this.lname = lname;
-        System.out.println(fname);
-        System.out.println(lname);
+        System.out.println(fname + " " + lname);
     }
 
     public PersonConstructorCalling(String fname, String lname, String address) {

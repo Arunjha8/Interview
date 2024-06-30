@@ -22,8 +22,8 @@ public class DeepStudent implements Cloneable {
 
     @Override
     protected Object clone() throws CloneNotSupportedException {
-        DeepStudent stud = (DeepStudent) super.clone();
-        stud.address = (DeepAddress) address.clone();
-        return stud;
+        DeepStudent s = (DeepStudent) super.clone();
+        s.address = (DeepAddress) address.clone();
+        return s;
     }
 }
