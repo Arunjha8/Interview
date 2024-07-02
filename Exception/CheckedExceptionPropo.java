@@ -2,15 +2,15 @@ package Exception;
 
 public class CheckedExceptionPropo {
     public static void main(String[] args) {
-        dad();
-    }
-
-    public static void dad() {
         try {
-            mom();
+            dad();
         } catch (CheckedMistakeException e) {
             System.out.println(e.getMessage());
         }
+    }
+
+    public static void dad() throws CheckedMistakeException {
+        mom();
     }
 
     public static void mom() throws CheckedMistakeException {
