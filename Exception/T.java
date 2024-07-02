@@ -8,16 +8,14 @@ import java.util.Scanner;
 public class T {
     public static void main(String[] args) throws FileNotFoundException {
         File file = new File("C:\\Users\\Arun\\OneDrive\\Desktop\\Interview Theory\\Revision.txt");
+
+        Scanner scanner = new Scanner(file);
         try {
-            Scanner scanner = new Scanner(file);
-            //           try {
             String line = scanner.nextLine();
-            System.out.println(line);
+           // System.out.println(line);
         } catch (NoSuchElementException e) {
-            System.err.println("Reached the end of the file: " + e.getMessage());
+            System.out.println("Reached the end of the file: " + e);
         }
-//        } catch (FileNotFoundException e) {
-//            System.out.println(e.getMessage());
-//        }
+
     }
 }

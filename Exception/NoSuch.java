@@ -10,7 +10,7 @@ public class NoSuch {
     public static void main(String[] args) {
 
         String name = "Arun";
-        //	String[] name1 = {"Amisha"} ;
+        //	String[] name1 = {"Arun"} ;
         int a = 10 / 2;
 
         List list = new ArrayList();
@@ -28,7 +28,7 @@ public class NoSuch {
 
         try {
             System.out.println(a);
-            System.out.println(name.charAt(5));
+            System.out.println(name.charAt(2));
             //		  System.out.println(name1[4]);
             //	  System.out.println(name.length());
 
