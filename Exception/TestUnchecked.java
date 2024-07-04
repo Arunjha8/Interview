@@ -7,7 +7,7 @@ public class TestUnchecked {
             System.out.println("i is not equal");
         } else {
             RuntimeException e = new RuntimeException("Wrong Number");
-            // System.out.println(e);
+            System.out.println(e);
             throw e;
         }
     }
