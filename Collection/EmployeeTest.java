@@ -16,10 +16,10 @@ public class EmployeeTest {
         Iterator it = l.iterator();
         while (it.hasNext()) {
             Employee e = (Employee) it.next();
- //           System.out.println(e);
-            System.out.println(e.getId());
-            System.out.println(e.getName());
-            System.out.println(e.getSalary());
+            System.out.println(e);
+//            System.out.println(e.getId());
+//            System.out.println(e.getName());
+//            System.out.println(e.getSalary());
         }
     }
 }
