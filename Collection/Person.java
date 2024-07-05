@@ -1,11 +1,11 @@
 package Collection;
 
-public class Employee implements Comparable<Employee> {
+public class Person {
     private int id;
     private String name;
     private int salary;
 
-    public Employee(int id, String name, int salary) {
+    public Person(int id, String name, int salary) {
         this.id = id;
         this.name = name;
         this.salary = salary;
@@ -24,15 +24,8 @@ public class Employee implements Comparable<Employee> {
     }
 
     @Override
-    public int compareTo(Employee o) {
-        if (this.name == o.name) {
-            return this.salary - o.salary;
-        }
-        return this.id - o.id;
-    }
-
-    @Override
     public String toString() {
-        return id + " " + name + " " + salary;
+        String s = id + " " + name + " " + salary;
+        return s;
     }
 }

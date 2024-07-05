@@ -1,25 +1,22 @@
 package Collection;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 public class EmployeeTest {
     public static void main(String[] args) {
-        Employee e1 = new Employee(1, "abc", 1000);
-        Employee e2 = new Employee(2, "xyz", 2000);
+        List list = new ArrayList();
 
-        List l = new ArrayList();
-        l.add(e1);
-        l.add(e2);
+        list.add(new Person(5, "sanat", 1000));
+        list.add(new Person(2, "prakhar", 3000));
+        list.add(new Person(1, "riya", 2500));
+        list.add(new Person(4, "riya", 1200));
+        list.add(new Person(3, "ajay", 5000));
 
-        Iterator it = l.iterator();
-        while (it.hasNext()) {
-            Employee e = (Employee) it.next();
-            System.out.println(e);
-//            System.out.println(e.getId());
-//            System.out.println(e.getName());
-//            System.out.println(e.getSalary());
+     //   Collections.sort(list);
+
+        for (Object object : list) {
+            System.out.println(object);
         }
     }
 }
