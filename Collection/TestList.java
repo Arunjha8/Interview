@@ -22,6 +22,6 @@ public class TestList {
         System.out.println("List = " + l);
 
         System.out.println("List indexOf = "+l.indexOf('b'));
-        System.out.println(l.subList(0,3));
+       // System.out.println(l.subList(0,3));
     }
 }
