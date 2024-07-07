@@ -1,4 +1,4 @@
-package Collection;
+package Collection.FailFastSafe;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -15,7 +15,7 @@ public class FailFast {
 
 //        l.add(4);    // Here we cannot add or remove elements
 //        l.clear();
-//        l.add(5);
+
         while (it.hasNext()) {
             System.out.println(it.next());
         }
