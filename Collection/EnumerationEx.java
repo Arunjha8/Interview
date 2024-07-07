@@ -13,6 +13,7 @@ public class EnumerationEx {
         v.addElement(5);
 
         Enumeration e = v.elements();
+        v.add(6);
         while (e.hasMoreElements()) {
             System.out.println(e.nextElement());
         }

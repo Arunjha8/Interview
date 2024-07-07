@@ -25,7 +25,7 @@ public class TestIterator {
             System.out.println(obj);
         }
 
-        System.out.println("=========================================================");
+       // System.out.println("=========================================================");
 
         Iterator it = list.iterator();
         while (it.hasNext()) {
