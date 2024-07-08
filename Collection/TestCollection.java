@@ -21,7 +21,7 @@ public class TestCollection {
         System.out.println("c1 = " + c1);
         System.out.println("c2 = " + c2);
 
-        c1.retainAll(c2);
+      //  c1.retainAll(c2);
 
         System.out.println("c1 => " + c1);
         System.out.println("c2 => " + c2);
@@ -37,7 +37,7 @@ public class TestCollection {
 //        c1.clear();
 //        System.out.println("c1 = " + c1);
 
-        System.out.println(c1.contains('1') + "arun");
+        System.out.println(c1.contains('1') + " arun");
         System.out.println(c1.containsAll(c2));
         System.out.println(c1.isEmpty());
         //  c1.removeAll(c2);

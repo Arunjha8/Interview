@@ -2,6 +2,7 @@ package Collection.Comparable;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 
 public class TestStudent {
@@ -15,6 +16,11 @@ public class TestStudent {
 
         Collections.sort(s);
 
-        s.forEach(System.out::println);
+        Iterator it=s.iterator();
+        while (it.hasNext()){
+            System.out.println(it.next());
+        }
+
+//        s.forEach(System.out::println);
     }
 }

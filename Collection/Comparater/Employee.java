@@ -1,8 +1,8 @@
 package Collection.Comparater;
 
 public class Employee {
-    private String name;
     private int id;
+    private String name;
     private int salary;
 
     public Employee() {

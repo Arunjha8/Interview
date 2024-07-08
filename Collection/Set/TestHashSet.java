@@ -1,5 +1,6 @@
 package Collection.Set;
 
+import java.util.Enumeration;
 import java.util.HashSet;
 import java.util.Iterator;
 
@@ -30,9 +31,9 @@ public class TestHashSet {
         s2.remove(3);
         System.out.println(s2.size());
 
-        Iterator it1=s2.iterator();
-       // s2.add(8);  //ConcurrentModificationException
-        while (it1.hasNext()){
+        Iterator it1 = s2.iterator();
+        // s2.add(8);  //ConcurrentModificationException
+        while (it1.hasNext()) {
             System.out.println(it1.next());
         }
         s2.add(8);

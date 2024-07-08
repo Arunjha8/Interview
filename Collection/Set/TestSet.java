@@ -12,7 +12,7 @@ public class TestSet {
         s.add(1);
         s.add(null);
         s.add(null);
-        //  s.remove(1);
+        // s.remove(1);
         // System.out.println("set = " + s);
         Iterator it = s.iterator();
         while (it.hasNext()) {
@@ -27,7 +27,7 @@ public class TestSet {
         s2.add(11);
         s2.add(14);
         s2.add(13);
-        System.out.println(s2);
+
         Iterator it2 = s2.iterator();
         while (it2.hasNext()) {
             System.out.println(it2.next());

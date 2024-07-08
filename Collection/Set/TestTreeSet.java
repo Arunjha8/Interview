@@ -12,10 +12,12 @@ public class TestTreeSet {
         s.add(21);
 
         System.out.println(s);
+        System.out.println(s.first());
+        System.out.println(s.last());
 
-        Iterator it = s.iterator();
-        while (it.hasNext()) {
-            System.out.println(it.next());
-        }
+//        Iterator it = s.iterator();
+//        while (it.hasNext()) {
+//            System.out.println(it.next());
+//        }
     }
 }

@@ -25,7 +25,6 @@ public class Person {
 
     @Override
     public String toString() {
-        String s = id + " " + name + " " + salary;
-        return s;
+        return id + " " + name + " " + salary;
     }
 }

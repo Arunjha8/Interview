@@ -13,13 +13,13 @@ public class TestSortedSet {
         System.out.println(s.first());
         System.out.println(s.last());
         System.out.println(s);
-        for (Object o : s) {
-            System.out.println(o);
-        }
-
-//        Iterator it = s.iterator();
-//        while (it.hasNext()) {
-//            System.out.println(it.next());
+//        for (Object o : s) {
+//            System.out.println(o);
 //        }
+
+        Iterator it = s.iterator();
+        while (it.hasNext()) {
+            System.out.println(it.next());
+        }
     }
 }

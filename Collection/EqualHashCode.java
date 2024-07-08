@@ -17,7 +17,7 @@ public class EqualHashCode {
         String s = this.id + this.name + this.salary;
         return s.hashCode();
     }
-//arun
+
     @Override
     public boolean equals(Object obj) {
         //  if (getClass() != obj.getClass()) {   // class Collection.EqualHashCode ==getClass()
