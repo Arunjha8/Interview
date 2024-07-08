@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class HashMapExample {
     public static void main(String[] args) {
-        Map m = new HashMap();
+        HashMap m = new HashMap();
         m.put(1, null);
         m.put(2, null);
         m.put(4, "four");

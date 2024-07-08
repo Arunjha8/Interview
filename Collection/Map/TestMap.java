@@ -10,6 +10,8 @@ public class TestMap {
         map.put(2, "two");
         map.put(3, "three");
         map.put(4, "four");
+        map.put(6, 1);
+        map.put(5, 3);
 
         System.out.println(map);
 
@@ -18,9 +20,9 @@ public class TestMap {
         System.out.println(map);
 
         // Retrieve and print values based on keys
-        System.out.println(map.get(4));
+        System.out.println(map.get(7));
 
         // Check if a key is present in the map
-        System.out.println(map.containsKey(4));
+        System.out.println(map.containsKey(7));
     }
 }
