@@ -14,5 +14,9 @@ public class HashMapExample {
         System.out.println(m.size());
         System.out.println(m);
         System.out.println(m.get(3));
+
+        for (Object o : m.entrySet()) {
+            System.out.println(o);
+        }
     }
 }
