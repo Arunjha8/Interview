@@ -10,9 +10,11 @@ public class TestSortedSet {
         s.add(4);
         s.add(2);
         s.add(3);
-        System.out.println(s.first());
-        System.out.println(s.last());
-        System.out.println(s);
+        // s.add("abc");
+
+//        System.out.println(s.first());
+//        System.out.println(s.last());
+//        System.out.println(s);
 //        for (Object o : s) {
 //            System.out.println(o);
 //        }

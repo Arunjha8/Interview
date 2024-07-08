@@ -9,7 +9,6 @@ public class TestLinkedHashSet {
         set.add("Welcome");
         set.add("To");
         set.add("Geeks");
-        set.add("4");
         set.add("Geeks");
 
         System.out.println(set);

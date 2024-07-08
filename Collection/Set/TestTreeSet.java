@@ -10,6 +10,7 @@ public class TestTreeSet {
         s.add(13);
         s.add(40);
         s.add(21);
+        //  s.add("abc");
 
         System.out.println(s);
         System.out.println(s.first());
