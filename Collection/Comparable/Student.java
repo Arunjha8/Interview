@@ -19,15 +19,15 @@ public class Student implements Comparable<Student> {
 //        } else {
 //            return this.id - o.id;
 //        }
-        if (name.equals(o.name)) {
+        if (this.name.equals(o.name)) {
             return id - o.id;
         } else {
-            return o.name.compareTo(name);
+            return this.name.compareTo(o.name);
         }
     }
 
     @Override
     public String toString() {
-        return (name + " " + id);
+        return (id + " " + name);
     }
 }

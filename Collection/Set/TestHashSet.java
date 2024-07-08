@@ -13,10 +13,10 @@ public class TestHashSet {
         s.add("Two");
 
         System.out.println(s);
-        Iterator it = s.iterator();
-        while (it.hasNext()) {
-            System.out.println(it.next());
-        }
+//        Iterator it = s.iterator();
+//        while (it.hasNext()) {
+//            System.out.println(it.next());
+//        }
 
         HashSet s2 = new HashSet();
 
@@ -29,13 +29,14 @@ public class TestHashSet {
         System.out.println(s2);
         System.out.println(s2.contains(2));
         s2.remove(3);
+        System.out.println(s2);
         System.out.println(s2.size());
 
-        Iterator it1 = s2.iterator();
-        // s2.add(8);  //ConcurrentModificationException
-        while (it1.hasNext()) {
-            System.out.println(it1.next());
-        }
+//        Iterator it1 = s2.iterator();
+//        // s2.add(8);  //ConcurrentModificationException
+//        while (it1.hasNext()) {
+//            System.out.println(it1.next());
+//        }
         s2.add(8);
         System.out.println(s2);
     }
