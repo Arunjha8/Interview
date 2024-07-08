@@ -37,7 +37,7 @@ public class TestHashSet {
 //        while (it1.hasNext()) {
 //            System.out.println(it1.next());
 //        }
-        s2.add(8);
+        s2.add(4);
         System.out.println(s2);
     }
 }

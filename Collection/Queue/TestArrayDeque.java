@@ -16,11 +16,6 @@ public class TestArrayDeque {
         System.out.println(q.peek() + " get top element");
         System.out.println(q);
 
-        // popLast() get and remove last element
-
-        System.out.println(q.pop());
-        System.out.println(q);
-
         // pollLast() get and remove last element
         System.out.println(q.poll());
         System.out.println(q);
