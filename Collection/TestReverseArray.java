@@ -1,7 +1,6 @@
 package Collection;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
@@ -11,6 +10,7 @@ public class TestReverseArray {
         l.add(1);
         l.add(2);
         l.add(6);
+        l.add(5);
         l.add(3);
         l.add(4);
 

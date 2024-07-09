@@ -26,7 +26,7 @@ public class ReverseArray {
         Integer[] array4 = {500, 700, 600, 900, 400};
         List<Integer> list = Arrays.asList(array4);
         Collections.sort(list, Collections.reverseOrder());
-        //  Collections.sort(list);                             //Arrange in Ascending Order
+      //  Collections.sort(list);                             //Arrange in Ascending Order
         list.toArray(array4);
         System.out.println(Arrays.toString(array4));
     }
