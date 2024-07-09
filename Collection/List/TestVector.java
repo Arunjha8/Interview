@@ -7,7 +7,7 @@ import java.util.Vector;
 public class TestVector {
     public static void main(String[] args) {
         Vector v = new Vector();
-        v.add("Arun");
+        v.addElement("Arun");
         v.addElement("Mahak");
         v.addElement(100);
         v.addElement(200);
@@ -23,7 +23,7 @@ public class TestVector {
         System.out.println("------------------");
 
         Enumeration e = v.elements();
-        v.add(1);
+        v.addElement(1);
         v.addElement(2);
 
         while (e.hasMoreElements()) {
@@ -32,7 +32,8 @@ public class TestVector {
         System.out.println("------------------");
         System.out.println(v);
         v.set(5, 500);
-     //   v.add(2, "Amisha");
+        System.out.println(v);
+        v.add(2, "Amisha");
         System.out.println(v);
     }
 }

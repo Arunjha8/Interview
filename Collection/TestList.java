@@ -25,5 +25,10 @@ public class TestList {
 
         System.out.println("List indexOf = " + l.indexOf('b'));
         System.out.println(l.subList(0, 3));
+
+//        Iterator it = l.iterator();
+//        while (it.hasNext()) {
+//            System.out.println(it.next());
+//        }
     }
 }

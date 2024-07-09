@@ -32,7 +32,7 @@ public class TestHashSet {
 
         System.out.println(s2);
         System.out.println(s2.contains(2));
-        s2.remove(3);
+        s2.remove(4);
         System.out.println(s2);
         System.out.println(s2.size());
 
