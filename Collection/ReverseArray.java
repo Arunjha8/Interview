@@ -19,8 +19,8 @@ public class ReverseArray {
         //Using with stream API
         Integer[] array3 = {50, 60, 90, 80, 70, 100};
         array3 = Arrays.stream(array3).sorted((a, b) -> b - a).toArray(Integer[]::new);
-        System.out.println(Arrays.toString(array3));
-
+        System.out.println(Arrays.toString(array3));    //Yeh line sorted array ko print kar rahi hai, taki hum result dekh sakein.
+//.toArray(Integer[]::new): Yeh sorted stream ko dobara se ek nayi Integer array mein convert karta hai.
 
         //Using Collections.sort
         Integer[] array4 = {500, 700, 600, 900, 400};
