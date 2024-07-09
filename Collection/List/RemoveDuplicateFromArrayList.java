@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class RemoveDuplicateFromArrayList {
     public static void main(String[] args) {
-        List l= new ArrayList();
+        List l = new ArrayList();
 
         l.add(1);
         l.add(2);
@@ -18,7 +18,7 @@ public class RemoveDuplicateFromArrayList {
 
         System.out.println(l);
 
-        Set s= new HashSet(l);
+        Set s = new HashSet(l);
         System.out.println(s);
     }
 }

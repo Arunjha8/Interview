@@ -10,21 +10,21 @@ public class FailFast2 {
         l.add("two");
         l.add("three");
         l.add("four");
-        l.add("five");
 
         //   Integer i = new Integer(8);
         int i = 8;
         l.add(i);
+        l.add("five");
 
         System.out.println(l.get(3));
 
         String s = (String) l.get(3);
         System.out.println(s);
 
-        Iterator it = l.iterator();
-        // l.add("six");
-        while (it.hasNext()) {
-            System.out.println(it.next());
-        }
+//        Iterator it = l.iterator();
+//        // l.add("six");
+//        while (it.hasNext()) {
+//            System.out.println(it.next());
+//        }
     }
 }

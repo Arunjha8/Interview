@@ -1,6 +1,7 @@
 package Collection.Map;
 
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
 
 public class HashMapExample {
@@ -15,8 +16,8 @@ public class HashMapExample {
         System.out.println(m);
         System.out.println(m.get(3));
 
-        for (Object o : m.entrySet()) {
-            System.out.println(o);
-        }
+//        for (Object o : m.entrySet()) {
+//            System.out.println(o);
+//        }
     }
 }

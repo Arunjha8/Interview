@@ -14,7 +14,7 @@ public class FailFast {
         Iterator it = l.iterator();
 
 //        l.add(4);    // Here we cannot add or remove elements
-//        l.clear();
+//        l.clear();   // Here we clear
 
         while (it.hasNext()) {
             System.out.println(it.next());

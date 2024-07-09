@@ -5,7 +5,7 @@ import java.util.Stack;
 public class TestStack {
     public static void main(String[] args) {
         Stack s = new Stack();
-
+//LIFO Or FIFO
         s.push("Arun");
         s.push("Mahak");
         s.push(100);

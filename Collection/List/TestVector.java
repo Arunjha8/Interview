@@ -31,8 +31,8 @@ public class TestVector {
         }
         System.out.println("------------------");
         System.out.println(v);
-        v.set(3, 500);
-        v.add(2, "Amisha");
+        v.set(5, 500);
+     //   v.add(2, "Amisha");
         System.out.println(v);
     }
 }

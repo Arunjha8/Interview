@@ -8,14 +8,15 @@ public class FailSafe {
         Vector l = new Vector();
         l.add(1);
         l.add(2);
-        l.addElement("arun");
+        l.add("arun");
 
         Enumeration it = l.elements();
 
         l.add(3);
         l.addElement(4);
         l.addElement("mahak");
-        l.remove(0);
+//        l.remove(0);
+//        l.set(0, 8);
         while (it.hasMoreElements()) {
             System.out.println(it.nextElement());
         }
