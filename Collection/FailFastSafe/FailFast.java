@@ -8,7 +8,7 @@ import java.util.concurrent.ArrayBlockingQueue;
 public class FailFast {
     public static void main(String[] args) {
         List l = new ArrayList();
-//        ArrayBlockingQueue l = new ArrayBlockingQueue(5);
+//        ArrayBlockingQueue l = new ArrayBlockingQueue(5);     // Exception Not raise
         l.add(1);
         l.add(2);
         l.add(3);

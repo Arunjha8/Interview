@@ -14,10 +14,10 @@ public class TestPriorityQueue {
 //        p.offer("Three");
 //        p.offer("Two");
 
-//        System.out.println(p);
-//        System.out.println(p.peek());
-//        System.out.println(p);
-//        System.out.println(p.poll());
+        System.out.println(p);
+        System.out.println(p.peek());
+        System.out.println(p);
+        System.out.println(p.poll());
         System.out.println(p);
         Object o = p.element();
         System.out.println(o);

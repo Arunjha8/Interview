@@ -1,7 +1,6 @@
 package Collection;
 
 import java.util.ArrayList;
-import java.util.Enumeration;
 import java.util.Iterator;
 import java.util.List;
 
@@ -20,7 +19,7 @@ public class TestList {
         l.remove(2);
         System.out.println("List Remove = " + l);
 
-        l.set(2, "one");
+        l.set(2, "five");
         System.out.println("List = " + l);
 
         System.out.println("List indexOf = " + l.indexOf('b'));
