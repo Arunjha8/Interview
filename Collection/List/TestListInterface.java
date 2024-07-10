@@ -38,10 +38,11 @@ public class TestListInterface {
         l2.add("Yugal");
 
         //Contain all element of l2 which are same in l
- //       l2.retainAll(l);
+        l2.retainAll(l);
         System.out.println(l2);
 
         System.out.println(l.removeAll(l2));
+        System.out.println(l);
 		System.out.println(l2);
         System.out.println(l);
 
