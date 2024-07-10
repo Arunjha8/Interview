@@ -37,7 +37,7 @@ public class TestCollection {
 //        c1.clear();
 //        System.out.println("c1 = " + c1);
 
-        System.out.println(c1.contains('1') + " arun");
+        System.out.println(c1.contains('a') + " arun");
         System.out.println(c1.containsAll(c2));
         System.out.println(c1.isEmpty());
         c1.removeAll(c2);

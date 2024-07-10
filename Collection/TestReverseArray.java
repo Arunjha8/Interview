@@ -14,6 +14,9 @@ public class TestReverseArray {
         l.add(3);
         l.add(4);
 
+//        Collections.sort(l);
+//        System.out.println(l);
+//        Collections.reverse(l);
         System.out.println(l);
         Collections.sort(l, Collections.reverseOrder());
         System.out.println(l);
