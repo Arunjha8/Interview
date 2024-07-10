@@ -9,7 +9,7 @@ public class TestArrayDeque {
         q.offer(1);
         q.offer(3);
         q.offerLast(5);
-        q.offerFirst(2);
+        q.offerFirst("Arun");
         System.out.println(q);
 
         // peekLast() get last element

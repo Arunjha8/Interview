@@ -15,7 +15,7 @@ public class TestListInterface {
         l.add(5.1);
         l.add("Arun");
         l.add("Mahak");
-        System.out.println("All Element of List" + l);
+        System.out.println("All Element of List = " + l);
 
         System.out.println(l.indexOf("Mahak"));
 

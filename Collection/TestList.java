@@ -14,7 +14,8 @@ public class TestList {
         System.out.println("List = " + l);
 
         l.add(2, "one");
-        System.out.println("List = " + l.get(2));
+//        l.add(2, "four");
+        System.out.println("List1 = " + l.get(2));
 
         l.remove(2);
         System.out.println("List Remove = " + l);

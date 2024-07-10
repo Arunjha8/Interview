@@ -11,6 +11,7 @@ public class TestQueueArrayDeque {
         q.add(4);
         q.add(5);
         q.add(2);
+        q.offer(6);
 
         System.out.println(q.element());
         System.out.println(q);

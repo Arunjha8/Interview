@@ -30,7 +30,7 @@ public class TestHashSet {
         s2.add(3);
         s2.add(2);
 
-        System.out.println(s2);
+        System.out.println("HashSet2 = " + s2);
         System.out.println(s2.contains(2));
         s2.remove(4);
         System.out.println(s2);

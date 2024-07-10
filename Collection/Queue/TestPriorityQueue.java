@@ -8,7 +8,7 @@ public class TestPriorityQueue {
         p.add(1);
         p.add(2);
         p.add(3);
- //       p.add('A');
+//        p.add('A');
 //        System.out.println(p);
 //        p.offer("one");
 //        p.offer("Three");
@@ -21,9 +21,9 @@ public class TestPriorityQueue {
         System.out.println(p);
         Object o = p.element();
         System.out.println(o);
-        o=p.remove();
+        p.remove();
         System.out.println(p);
-        System.out.println(o);
+       // System.out.println(o);
 
     }
 }

@@ -20,7 +20,7 @@ public class FailFast2 {
 
         String s = (String) l.get(3);
         System.out.println(s);
-
+       
 //        Iterator it = l.iterator();
 //        // l.add("six");
 //        while (it.hasNext()) {
