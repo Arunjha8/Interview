@@ -1,7 +1,6 @@
 package Collection;
 
 import java.util.LinkedList;
-import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.concurrent.ArrayBlockingQueue;
 
@@ -13,7 +12,7 @@ public class Test {
         // Adding elements using add and offer
         q.add("Element 1");
         q.offer("Element 2");
-        // q.add("Element 3");           // add throws Exception
+        // q.add("Element 3");           // add throws Exception  (IllegalStateException)
         q.offer("Element 3");
 
         System.out.println(q);
