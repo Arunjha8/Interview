@@ -19,6 +19,6 @@ public class UncheckedExProTest {
 
     public static void son() {
         UncheckedExPro e = new UncheckedExPro();
-        throw new UncheckedExPro();
+        throw e;
     }
 }
