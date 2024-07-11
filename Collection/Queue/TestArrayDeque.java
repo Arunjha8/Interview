@@ -22,4 +22,3 @@ public class TestArrayDeque {
 
     }
 }
-        // Deque method - peek, pop ,offer

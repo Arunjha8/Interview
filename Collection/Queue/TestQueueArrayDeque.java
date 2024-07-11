@@ -13,13 +13,15 @@ public class TestQueueArrayDeque {
         q.add(2);
         q.offer(6);
 
-        System.out.println(q.element());
+        System.out.println(q.element()+" get top level element");
         System.out.println(q);
 
         q.remove();
-        Iterator it = q.iterator();
-        while (it.hasNext()) {
-            System.out.println(it.next());
-        }
+        System.out.println(q);
+//        Iterator it = q.iterator();
+//        while (it.hasNext()) {
+//            System.out.println(it.next());
+//        }
     }
 }
+// Deque method - peek, pop ,offer, remove, element
