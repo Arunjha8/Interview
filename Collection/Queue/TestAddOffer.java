@@ -18,5 +18,7 @@ public class TestAddOffer {
         q1.offer(5);
         System.out.println(q1);
 
+        // We can use Iterator to iterate
+
     }
 }
