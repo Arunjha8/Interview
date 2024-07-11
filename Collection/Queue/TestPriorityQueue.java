@@ -9,7 +9,6 @@ public class TestPriorityQueue {
         p.add(2);
         p.add(3);
 //        p.add('A');
-//        System.out.println(p);
 //        p.offer("one");
 //        p.offer("Three");
 //        p.offer("Two");

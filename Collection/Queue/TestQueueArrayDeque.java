@@ -24,4 +24,4 @@ public class TestQueueArrayDeque {
 //        }
     }
 }
-// Deque method - peek, pop ,offer, remove, element
+// Deque method - peek, poll ,offer, remove, element
