@@ -13,16 +13,19 @@ public class TestLinkedList {
 
         System.out.println(list);
 
-        Iterator it = list.iterator();
-
-        while (it.hasNext()) {
-            System.out.println(it.next());
-        }
+//        Iterator it = list.iterator();
+//
+//        while (it.hasNext()) {
+//            System.out.println(it.next());
+//        }
 
         System.out.println(list.indexOf("Amisha"));
         System.out.println(list.get(1));
         list.set(1, "Mahak");
         System.out.println(list);
 
+//        list.remove();                      // remove first object
+//        list.remove("Amisha");           //remove particular object
+//        System.out.println(list);
     }
 }

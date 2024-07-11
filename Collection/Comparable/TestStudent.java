@@ -10,14 +10,14 @@ public class TestStudent {
         List s = new ArrayList();
 
         s.add(new Student("Arun", 10));
-        s.add(new Student("Amisha", 10));
-        s.add(new Student("Mahak", 10));
         s.add(new Student("Amisha", 100));
+        s.add(new Student("Mahak", 10));
+        s.add(new Student("Amisha", 10));
 
         Collections.sort(s);
 
-        Iterator it=s.iterator();
-        while (it.hasNext()){
+        Iterator it = s.iterator();
+        while (it.hasNext()) {
             System.out.println(it.next());
         }
 
