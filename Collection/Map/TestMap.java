@@ -18,11 +18,17 @@ public class TestMap {
         //  map.clear();
         map.remove(1);
         System.out.println(map);
-
+        System.out.println(map.keySet());
         // Retrieve and print values based on keys
         System.out.println(map.get(7));
 
         // Check if a key is present in the map
         System.out.println(map.containsKey(7));
+
+        System.out.println(map.entrySet());         //for Iterate the map
+        System.out.println(map.values());
+        System.out.println(map.size());
+        System.out.println(map.keySet());           // get all keys
+
     }
 }
