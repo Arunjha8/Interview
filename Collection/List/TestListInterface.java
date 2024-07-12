@@ -19,7 +19,7 @@ public class TestListInterface {
 
         System.out.println(l.indexOf("Mahak"));
 
-        System.out.println(l.lastIndexOf("A"));
+        System.out.println(l.lastIndexOf("Mahak"));
 
         System.out.println(l.subList(0,4));
         l.add(1,78);

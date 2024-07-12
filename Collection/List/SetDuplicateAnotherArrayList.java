@@ -11,11 +11,8 @@ public class SetDuplicateAnotherArrayList {
         l.add(1);
         l.add(2);
         l.add(3);
-        l.add(4);
+        l.add(3);
         l.add(2);
-        l.add("arun");
-        l.add("abc");
-        l.add("abc");
 
         Set unique = new HashSet();
         Set duplic = new HashSet();
@@ -28,7 +25,7 @@ public class SetDuplicateAnotherArrayList {
         List dupList = new ArrayList(duplic);
         List ori = new ArrayList(unique);
         System.out.println("Original List: " + l);
-        System.out.println("Original Value List: " + ori);
+        System.out.println("Unique List: " + ori);
         System.out.println("Duplicate List: " + dupList);
     }
 }
