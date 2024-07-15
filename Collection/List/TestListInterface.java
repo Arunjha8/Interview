@@ -41,10 +41,10 @@ public class TestListInterface {
         l2.retainAll(l);
         System.out.println(l2);
 
-        System.out.println(l.removeAll(l2));
-        System.out.println(l);
-		System.out.println(l2);
-        System.out.println(l);
+//        System.out.println(l.removeAll(l2));
+//        System.out.println(l);
+//		System.out.println(l2);
+//        System.out.println(l);
 
     }
 }
