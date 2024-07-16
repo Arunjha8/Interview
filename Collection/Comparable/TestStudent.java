@@ -7,20 +7,20 @@ import java.util.List;
 
 public class TestStudent {
     public static void main(String[] args) {
-        List s = new ArrayList();
+        List l = new ArrayList();
 
-        s.add(new Student("Arun", 10));
-        s.add(new Student("Amisha", 100));
-        s.add(new Student("Mahak", 10));
-        s.add(new Student("Amisha", 10));
+        l.add(new Student("Arun", 10));
+        l.add(new Student("Amisha", 100));
+        l.add(new Student("Mahak", 10));
+        l.add(new Student("Amisha", 10));
 
-        Collections.sort(s);
+        Collections.sort(l);
 
-        Iterator it = s.iterator();
+        Iterator it = l.iterator();
         while (it.hasNext()) {
             System.out.println(it.next());
         }
 
-//        s.forEach(System.out::println);
+//        l.forEach(System.out::println);
     }
 }

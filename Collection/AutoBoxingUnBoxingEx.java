@@ -15,12 +15,12 @@ public class AutoBoxingUnBoxingEx {
         System.out.println(a2);
 
         //AutoBoxing
-        String str = "Anshul";
+        String str = "Arun";
         String s = new String(str);
         System.out.println(s);
 
         //Unboxing
-        String s1 = new String("Prajapati");
+        String s1 = new String("Ojha");
         String str1 = s1;
         System.out.println(str1);
 

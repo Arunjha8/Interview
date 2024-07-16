@@ -15,35 +15,35 @@ public class EmployeeTestComparater {
         l.add(new Employee("Amisha", 100, 1000));
         l.add(new Employee("Amisha", 100, 2000));
 
-//        EmployeeShortByName byName = new EmployeeShortByName();
-//        Collections.sort(l, byName);
-//        System.out.println("ShortByName>>>");
-////        l.forEach(System.out::println);
-//        Iterator it = l.iterator();
-//        while (it.hasNext()) {
-//            System.out.println(it.next());
-//        }
-//
-//        System.out.println("________________________");
-//
-//        EmployeeShortBySalary bySalary = new EmployeeShortBySalary();
-//        Collections.sort(l, bySalary);
-//        System.out.println("ShortBySalary>>>");
+        EmployeeShortByName byName = new EmployeeShortByName();
+        Collections.sort(l, byName);
+        System.out.println("ShortByName>>>");
 //        l.forEach(System.out::println);
-//
-//        System.out.println("________________________");
-//
-//        EmployeeShortById byId = new EmployeeShortById();
-//        Collections.sort(l, byId);
-//        System.out.println("ShortById>>>");
-//        l.forEach(System.out::println);
-//
-//        System.out.println("________________________");
-//
-//        EmployeeShortByIdName byIdName = new EmployeeShortByIdName();
-//        Collections.sort(l, byIdName);
-//        System.out.println("ShortByIdOrName>>>");
-//        l.forEach(System.out::println);
+        Iterator it = l.iterator();
+        while (it.hasNext()) {
+            System.out.println(it.next());
+        }
+
+        System.out.println("________________________");
+
+        EmployeeShortBySalary bySalary = new EmployeeShortBySalary();
+        Collections.sort(l, bySalary);
+        System.out.println("ShortBySalary>>>");
+        l.forEach(System.out::println);
+
+        System.out.println("________________________");
+
+        EmployeeShortById byId = new EmployeeShortById();
+        Collections.sort(l, byId);
+        System.out.println("ShortById>>>");
+        l.forEach(System.out::println);
+
+        System.out.println("________________________");
+
+        EmployeeShortByIdName byIdName = new EmployeeShortByIdName();
+        Collections.sort(l, byIdName);
+        System.out.println("ShortByIdOrName>>>");
+        l.forEach(System.out::println);
 
         System.out.println("________________________");
 
