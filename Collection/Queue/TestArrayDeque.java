@@ -22,4 +22,4 @@ public class TestArrayDeque {
 
     }
 }
-// Deque method - (peek, get, offer) First Last, poll, pop, remove, pollfirst
+// Deque method - (peek, get, offer) First Last, (poll, pop) last, remove, pollfirst
