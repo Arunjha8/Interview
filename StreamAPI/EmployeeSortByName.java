@@ -14,7 +14,7 @@ public class EmployeeSortByName {
         l.add(new Employee(10, "Amisha"));
         l.add(new Employee(1, "Mahak"));
 
-        l.stream().sorted(Comparator.comparing(Employee::getName)).collect(Collectors.toList()).forEach(e -> System.out.println(e));
+        l.stream().sorted(Comparator.comparing(Employee::getName)).forEach(e -> System.out.println(e));
         // l.stream().sorted(Comparator.comparing(Employee::getName)).collect(Collectors.toList()).forEach(e -> System.out.println(e.getId() + " " + e.getName()));
     }
 }

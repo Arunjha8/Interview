@@ -16,6 +16,6 @@ public class ContestantWinnerTest {
         l.stream().map(c -> c.getName() + " " + c.getPhoneno()).distinct().collect(Collectors.collectingAndThen(Collectors.toList(), c -> {
             Collections.shuffle(c);
             return c.stream();
-        })).limit(4).forEach(c -> System.out.println(c));
+        })).limit(3).forEach(c -> System.out.println(c));
     }
 }
