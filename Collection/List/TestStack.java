@@ -1,5 +1,7 @@
 package Collection.List;
 
+import java.util.Enumeration;
+import java.util.Iterator;
 import java.util.Stack;
 
 public class TestStack {
@@ -18,5 +20,14 @@ public class TestStack {
         System.out.println(s.pop());        // get the element and remove also
         System.out.println(s);
 
+//        Iterator it = s.iterator();
+//        while (it.hasNext()) {
+//            System.out.println(it.next());
+//        }
+
+//        Enumeration e = s.elements();
+//        while (e.hasMoreElements()) {
+//            System.out.println(e.nextElement());
+//        }
     }
 }

@@ -33,4 +33,10 @@ public class EqualHashCode {
 
         return st.equals(st1);
     }
+
+    @Override
+    public String toString() {
+        String s = this.id + " " + this.name + " " + this.salary;
+        return s;
+    }
 }
