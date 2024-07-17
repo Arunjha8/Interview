@@ -16,4 +16,8 @@ public class EmployeeSalary {
     public int getSalary() {
         return salary;
     }
+
+    public String toString() {
+        return name + " " + salary;
+    }
 }
