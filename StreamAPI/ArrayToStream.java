@@ -16,7 +16,7 @@ public class ArrayToStream {
 
         Stream<String> stream1 = Arrays.stream(s);
 
-        stream1.map(e -> e.toUpperCase()).forEach(e -> System.out.println(e));
+        stream1.map(e -> e.toUpperCase()).sorted().forEach(e -> System.out.println(e));
     }
 }
 // System.out::println ka matlab hai "standard output stream ka println method call karo."

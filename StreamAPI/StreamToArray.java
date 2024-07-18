@@ -8,6 +8,8 @@ public class StreamToArray {
 
         String[] stringArray = stringStream.toArray(e -> new String[e]);
 
-        System.out.println(stringArray[0]);
+        for (int i = 0; i < stringArray.length; i++) {
+            System.out.println(stringArray[i]);
+        }
     }
 }
