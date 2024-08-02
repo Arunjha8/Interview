@@ -24,6 +24,7 @@ public class TestAddOffer {
 //        q1.offer(3);
 //        q1.offer(4);
         System.out.println(q1.poll());
+        System.out.println(q1.remove());
 
     }
 }

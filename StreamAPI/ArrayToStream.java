@@ -5,12 +5,12 @@ import java.util.stream.Stream;
 
 public class ArrayToStream {
     public static void main(String[] args) {
-        String[] s = {"abc", "ghi", "jkl", "def"};
+        String[] s = {"abc", "ghi",  "def"};
 
         //   Stream stream = Arrays.stream(s);
         //   stream.sorted().forEach(System.out::println);
 
-        Arrays.stream(s).sorted().forEach(System.out::println);
+        Arrays.stream(s).forEach(System.out::println);
 
         System.out.println("-------------------");
 

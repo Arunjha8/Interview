@@ -15,6 +15,11 @@ public class StreamPrimeNo {
                 count++;
             }
         }
+//        if (count == 0) {
+//            return true;
+//        } else {
+//            return false;
+//        }
         return count == 0;
     }
 
