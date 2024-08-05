@@ -9,11 +9,11 @@ public class TestBinary {
         FileInputStream in = new FileInputStream("C:\\Users\\Arun\\OneDrive\\Desktop\\XYZ\\custompic.jpg");
         FileOutputStream out = new FileOutputStream("C:\\Users\\Arun\\OneDrive\\Desktop\\XYZ\\TestBinary1.jpg");
 
-        int ch = in.read();
-        while (ch != -1) {
-            System.out.print((char) ch);
-            out.write(ch);
-            ch = in.read();
+        int i = in.read();
+        while (i != -1) {
+            System.out.print((char) i);
+            out.write(i);
+            i = in.read();
         }
         out.close();
         in.close();

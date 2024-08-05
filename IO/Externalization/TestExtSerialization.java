@@ -9,6 +9,7 @@ public class TestExtSerialization {
         ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("C:\\Users\\Arun\\OneDrive\\Desktop\\XYZ\\ExtObj.txt"));
 
         Employee e = new Employee();
+
         e.id = 1;
         e.name = "Arun";
         e.address = "indore";
