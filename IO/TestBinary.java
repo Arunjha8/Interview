@@ -11,7 +11,7 @@ public class TestBinary {
 
         int i = in.read();
         while (i != -1) {
-            System.out.print((char) i);
+            //  System.out.print((char) i);
             out.write(i);
             i = in.read();
         }
